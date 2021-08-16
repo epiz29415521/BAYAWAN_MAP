@@ -156,7 +156,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:corrected_parcels</Layers>
+				<Layers>GH:google_satellite_hybrid_</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -166,7 +166,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:corrected_parcels</Layers>
+				<Layers>GH:google_satellite_hybrid_</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -176,7 +176,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:google_satellite_hybrid_</Layers>
+				<Layers>GH:corrected_parcels</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -186,7 +186,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:google_satellite_hybrid_</Layers>
+				<Layers>GH:corrected_parcels</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<CustomLayer>
@@ -238,26 +238,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:corrected_parcels</Name>
-				<Title>corrected_parcels</Title>
-				<Abstract>GH:corrected_parcels ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/epiz29415521/BAYAWAN_MAP/releases/download/Map_Download/corrected_parcels.zip˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="122.6645265882023" miny="9.343685660004537" maxx="122.97187037764428" maxy="9.706139188674955"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="463034.13615103555" miny="1033291.159847366" maxx="496756.5512454925" maxy="1073361.2561498652"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=corrected_parcels"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:google_satellite_hybrid_</Name>
 				<Title>google_satellite_hybrid_</Title>
 				<Abstract>GH:google_satellite_hybrid_ ABSTRACT</Abstract>
@@ -274,6 +254,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=google_satellite_hybrid_"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:corrected_parcels</Name>
+				<Title>corrected_parcels</Title>
+				<Abstract>GH:corrected_parcels ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸//github.com/epiz29415521/BAYAWAN_MAP/releases/download/Map_Download/corrected_parcels.zip˸notListing˸˸maxZoom˸5</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="122.6645265882023" miny="9.343685660004537" maxx="122.97187037764428" maxy="9.706139188674955"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="463034.13615103555" miny="1033291.159847366" maxx="496756.5512454925" maxy="1073361.2561498652"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=corrected_parcels"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
